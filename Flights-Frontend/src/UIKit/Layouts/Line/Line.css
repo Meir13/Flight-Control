@@ -1,0 +1,25 @@
+.Line {
+  display: flex;
+  gap: var(--gap);
+  align-items: center;
+  height: 100%;
+}
+
+.Line.wide {
+  gap: 20px;
+}
+
+.Line.between {
+  justify-content: space-between;
+}
+
+.Line.rows {
+  flex-direction: column;
+}
+.Line.leg-header {
+  display: flex;
+  gap: var(--gap);
+  align-items: center;
+  height: 100%;
+  background-color: #d87317;
+}
