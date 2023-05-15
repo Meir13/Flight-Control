@@ -1,0 +1,16 @@
+# ASP.NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+
+# React.js
+node_modules/
+build/
+npm-debug.log
+yarn-error.log
+
+# Visual Studio Code
+.vscode/

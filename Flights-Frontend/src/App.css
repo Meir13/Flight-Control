@@ -1,0 +1,41 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.active {
+  color: cyan;
+}
+
+.App[theme="dark"] {
+  --primary: yellow;
+  --secondary: green;
+  --light-gray: pink;
+}
+
+.bottom {
+  display: grid;
+  align-items: center;
+  text-align: end;
+}
+
+.pad-r {
+  padding-right: 10px;
+}
